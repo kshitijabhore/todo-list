@@ -1,0 +1,28 @@
+(function(){
+  var a = b = 3;
+})();
+
+console.log("a defined? " + (typeof a !== 'undefined'));
+
+console.log("b defined? " + (typeof b !== 'undefined'))
+
+***************
+(function() {
+    console.log(1); 
+    setTimeout(function(){console.log(2)}, 1000); 
+    setTimeout(function(){
+console.log(3)},0 );
+
+    console.log(4);
+})();
+// 1, 4, 3, 2
+*************************
+const reverseString = (str) => {
+let reversedStr = '';
+  for(i = (str.length - 1); i >= 0 ; i--){
+    reversedStr = reversedStr + str[i];
+  }
+  console.log(reversedStr);
+}
+
+reverseString('name');

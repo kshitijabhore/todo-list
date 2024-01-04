@@ -1,0 +1,42 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 20px;
+  color: #ed4264;
+}
+.addButton {
+  align-self: flex-end;
+  margin-right: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e798a8;
+  border: 1px solid #ed4264;
+}
+
+.table-style {
+  width: 25%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.form-style {
+  width: 25%;
+}
+
+.deleteAction {
+  color: red;
+  cursor: pointer;
+}
+
+.backButtonMargin {
+  margin-right: 1em;
+}
